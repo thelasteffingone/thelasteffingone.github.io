@@ -7,4 +7,12 @@ body {
   border: darkorange;
   border-width: thin;
   border-style: groove;
+
 }
+
+stats{
+color: rgb(72, 72, 124);
+text-decoration: darkred;
+}
+
+
