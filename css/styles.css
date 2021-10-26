@@ -1,16 +1,16 @@
-body { 
+body {
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
     "header header header"
     "nav article ads"
     "nav footer footer";
-  grid-template-rows: 80px 1fr 70px;  
+  grid-template-rows: 80px 1fr 70px;
   grid-template-columns: 20% 1fr 15%;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
   height: 100vh;
   margin: 0;
-  }  
+  }
 header, footer, article, nav, div {
   padding: 1.2em;
   background: black;
@@ -22,27 +22,29 @@ header, footer, article, nav, div {
 #pageFooter {
   grid-area: footer;
   }
-#mainArticle { 
-  grid-area: article;      
+#mainArticle {
+  grid-area: article;
   }
-#mainNav { 
-  grid-area: nav; 
+#mainNav {
+  grid-area: nav;
   }
-#siteAds { 
-  grid-area: ads; 
-  } 
+#siteAds {
+  grid-area: ads;
+  }
+
+nav {
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/21/17/59/blackboard-1846865_960_720.jpg");
+}
 /* Stack the layout on small devices/viewports. */
 @media all and (max-width: 575px) {
-  body { 
-    grid-template-areas: 
+  body {
+    grid-template-areas:
       "header"
       "article"
       "ads"
       "nav"
       "footer";
-    grid-template-rows: 80px 1fr 70px 1fr 70px;  
+    grid-template-rows: 80px 1fr 70px 1fr 70px;
     grid-template-columns: 1fr;
  }
 }
-
-
