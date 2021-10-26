@@ -13,7 +13,8 @@ body {
   }  
 header, footer, article, nav, div {
   padding: 1.2em;
-  background: gold;
+  background: black;
+  color: white;
   }
 #pageHeader {
   grid-area: header;
