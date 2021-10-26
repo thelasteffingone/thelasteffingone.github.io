@@ -1,0 +1,10 @@
+body {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium';
+  background-color: black;
+  border: darkorange;
+  border-width: thin;
+  border-style: groove;
+}
