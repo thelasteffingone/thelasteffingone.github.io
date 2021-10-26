@@ -11,7 +11,7 @@ body {
   height: 100vh;
   margin: 0;
   }
-header, footer, article, nav, div {
+header, footer, article, div {
   padding: 1.2em;
   background: black;
   color: white;
@@ -34,6 +34,8 @@ header, footer, article, nav, div {
 
 nav {
   background-image: url("https://cdn.pixabay.com/photo/2016/11/21/17/59/blackboard-1846865_960_720.jpg");
+  color: white;
+  padding: 1.2em;
 }
 /* Stack the layout on small devices/viewports. */
 @media all and (max-width: 575px) {
