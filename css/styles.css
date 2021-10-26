@@ -44,7 +44,6 @@ nav {
       "header"
       "article"
       "ads"
-      "nav"
       "footer";
     grid-template-rows: 80px 1fr 70px 1fr 70px;
     grid-template-columns: 1fr;
