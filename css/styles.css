@@ -11,7 +11,7 @@ body {
   height: 100vh;
   margin: 0;
   }
-header, footer, article, div {
+footer, article, div {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
   padding: 1.2em;
   background: black;
@@ -35,8 +35,16 @@ header, footer, article, div {
 
 nav {
   color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
   padding: 1.2em;
   background-color: black;
+}
+
+header {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+  padding: 1.2em;
+  color: white;
+  background-image: url("/resources/headerbanner.png");
 }
 
 a:hover {
