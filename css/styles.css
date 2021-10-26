@@ -4,15 +4,14 @@ body {
   font-size: 16px;
   font-family: 'Franklin Gothic Medium';
   background-color: black;
-  border: darkorange;
-  border-width: thin;
-  border-style: groove;
-
 }
 
-.stats {
+.stats{
 color: rgb(72, 72, 124);
 text-decoration: darkred;
+border: orangered;
+border-width: 1px;
+border-style: groove;
 }
 
 h3 {
