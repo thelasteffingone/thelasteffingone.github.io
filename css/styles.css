@@ -12,6 +12,7 @@ body {
   margin: 0;
   }
 header, footer, article, div {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
   padding: 1.2em;
   background: black;
   color: white;
