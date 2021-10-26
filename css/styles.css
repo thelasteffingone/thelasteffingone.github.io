@@ -25,6 +25,11 @@ h3 {
   font-style: italic;
 }
 
+td {
+  border-style: groove;
+  border-color: orangered;
+  border-width: .5px;
+}
 
 
 
