@@ -3,7 +3,7 @@ body {
   grid-template-areas:
     "header header header"
     "nav article ads"
-    "nav footer footer";
+    "footer footer footer";
   grid-template-rows: 80px 1fr 70px;
   grid-template-columns: 20% 1fr 15%;
   grid-row-gap: 10px;
@@ -44,6 +44,7 @@ nav {
       "header"
       "article"
       "ads"
+      "nav"
       "footer";
     grid-template-rows: 80px 1fr 70px 1fr 70px;
     grid-template-columns: 1fr;
