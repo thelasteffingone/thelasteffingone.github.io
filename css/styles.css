@@ -1,13 +1,13 @@
 body {
   display: grid;
   grid-template-areas:
-    "header header header"
+    "empty header info"
     "nav article ads"
     "footer footer footer";
-  grid-template-rows: 80px 1fr 70px;
-  grid-template-columns: 20% 1fr 15%;
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
+  grid-template-rows: 70px 1fr 50px;
+  grid-template-columns: 8% 1fr 10%;
+  grid-row-gap: 2px;
+  grid-column-gap: 2px;
   height: 100vh;
   margin: 0;
   }
@@ -19,6 +19,7 @@ footer, article, div {
   }
 #pageHeader {
   grid-area: header;
+  width: 450px;
   }
 #pageFooter {
   grid-area: footer;
@@ -45,6 +46,7 @@ header {
   padding: 1.2em;
   color: white;
   background-image: url("/resources/headerbanner.png");
+  
 }
 
 a:hover {
