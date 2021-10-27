@@ -1,5 +1,5 @@
 body {
-  display:-moz-grid;
+  display: grid;
   grid-template-areas:
     "header header header"
     "nav article ads"
