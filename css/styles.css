@@ -1,7 +1,7 @@
 body {
-  display: grid;
+  display:-moz-grid;
   grid-template-areas:
-    "none header none"
+    "header header header"
     "nav article ads"
     "footer footer footer";
   grid-template-rows: 80px 1fr 70px;
