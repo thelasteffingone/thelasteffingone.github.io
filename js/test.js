@@ -1,5 +1,4 @@
 function buttonPress() {
-        let pressed = 0;
         switch (pressed) {
             case 0: document.getElementById("buttonTest").innerHTML = "I am unchanged.",
                 pressed = 1;
