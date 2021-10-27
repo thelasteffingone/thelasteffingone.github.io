@@ -1,4 +1,4 @@
-const checkButtonState = checkButtonState => {
+function checkButtonState = checkButtonState => {
     let buttonPressed = 0;
     switch (button) {
         case 0: document.getElementById("buttonTest").innerHTML = "I am unchanged.";
