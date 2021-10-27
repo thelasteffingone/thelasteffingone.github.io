@@ -9,7 +9,16 @@ First Site
 <body>
   <header id="pageHeader">Header</header>
   <article id="mainArticle">Article</article>
-  <nav id="mainNav">Nav<br><br>
+  <p id="buttonTest">Whaddaup tho?</p>
+  <button onclick="myFunction()"></button>
+  <script>
+    function myFunction() {
+      document.getElementById("buttonTest").innerHTML = "Hello World";
+    }
+    </script>
+
+
+  <nav id="mainNav">Navigation<br><br>
     <a href="about.html">About Project</a><br>
     <a href="roadmap.html">Roadmap</a>
 </nav>

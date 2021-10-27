@@ -44,6 +44,7 @@ nav {
 header {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
   padding: 1.2em;
+  background-color: black; 
   color: white;
   background-image: url("/resources/headerbanner.png");
   
