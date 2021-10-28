@@ -10,11 +10,12 @@ First Site
 <body>
   <header id="pageHeader">Header</header>
   <article id="mainArticle">
+    <?php include "index.php";?>
     <h1>Basic HTML Validation</h1>
-    <form action="" method="POST">
+    <form action="show_user_name()" method="set">
       <label for="text">Enter your name here:</label>
     	<input id="name" name="name" type="text" required minlength="3" maxlength="100">
-      <?php include "index.php";?>
+
       <input type="submit" value="Submit">
     </form>
   </article>
